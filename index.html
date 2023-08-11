@@ -8,12 +8,13 @@
 <body>
     <form>
         <h1>Formulário de cadastro</h1>
-        <label>Nome:</label>
-        <input type="text" placeholder="ex: igor verly"><br />
-        <label>Email:</label>
-        <input type="email" placeholder="ex: teste@gmail.com"><br />
-        <label>Senaha:</label>
-        <input type="password" placeholder="digite sua senha"><br />
+        <label for="Nome">Nome:</label>
+        <input id="Nome" type="text"  placeholder="ex: igor verly" required><br />
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="ex: teste@gmail.com" required><br />
+        <label for="password">Senha:</label>
+        <input id="password" type="password" placeholder="digite sua senha" required><br />
+        <span class="error" ></span>
         <button type="submit">
             Enviar
         </button>
