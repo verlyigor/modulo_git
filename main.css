@@ -45,7 +45,9 @@ header li a:hover{
 
 .articles article img{
     /*height: 180px;*/
-    width: 100%;
+    width: 400px;
+    height: 500px;
+    object-fit: contain;
 }
 
 .articles article{
